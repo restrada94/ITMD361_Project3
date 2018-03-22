@@ -1,9 +1,46 @@
 html, body{
  width: 100%;
- background-color: #132d56; 
+ background-color: #1d293d; 
  font-family: Verdana, Geneva, sans-serif;
 }
-#title{
+#header{
   color: white;
   text-align: center;
+  padding-bottom; 20px;
+}
+#p1{
+  color: white;
+  text-align: center;
+}
+#p2{
+  color: white;
+  text-align: center;
+}
+#p3{
+  color: white;
+  text-align: center;
+}
+#p4{
+  color: white;
+  text-align: center;
+}
+#p5{
+  color: white;
+  text-align: center;
+}
+#p6{
+  color: white;
+  text-align: center;
+}
+#p7
+{
+  color: white;
+  text-align: center;
+}
+#youtubelink{
+  color: white;
+  text-align: center;
+  outline-style: dotted;
+  border: 1px solid white;
+  outline-color: white;
 }
