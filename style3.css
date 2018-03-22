@@ -1,1 +1,9 @@
-
+html, body{
+ width: 100%;
+ background-color: #132d56; 
+ font-family: Verdana, Geneva, sans-serif;
+}
+#title{
+  color: white;
+  text-align: center;
+}
