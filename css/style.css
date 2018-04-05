@@ -3,6 +3,30 @@ html, body{
  background-color: #4f5f7a; 
  font-family: Verdana, Geneva, sans-serif;
 }
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-flex; /* inline-block border inner gap - DONE */
+
+}
+.navigation li {
+	display: inline;
+	float: left; 
+
+}
+.navigation li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 20px 12px;
+}
+
+li a:hover {
+	background-color: #B36B00;
+	font-weight: bold;
+}
 #heading{
   color: white;
   text-align: center;
