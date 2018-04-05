@@ -1,0 +1,29 @@
+html, body{
+ width: 100%;
+ background-color: #4f5f7a; 
+ font-family: Verdana, Geneva, sans-serif;
+}
+#heading{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#objective{
+  color: white;
+  text-align: center;
+  outline-style: double;
+}
+#work{
+  color: white;
+  text-align: center;
+  height: 20px;
+}
+#education{
+  color:white;
+  text-align: center;
+}
+#lowerportion{
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, serif;
+}
