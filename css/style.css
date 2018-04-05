@@ -1,6 +1,6 @@
 html, body{
  width: 100%;
- background-color: #4f5f7a; 
+ background-color: #81adc6; 
  font-family: Verdana, Geneva, sans-serif;
 }
 .navigation ul {
@@ -8,7 +8,7 @@ html, body{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	display: inline-flex; /* inline-block border inner gap - DONE */
+	display: inline-flex;
 
 }
 .navigation li {
@@ -20,34 +20,10 @@ html, body{
 	display: block;
 	color: white;
 	text-decoration: none;
-	padding: 20px 12px;
+	padding: 25px 14px;
 }
 
 li a:hover {
-	background-color: #B36B00;
+	background-color: #9b9065;
 	font-weight: bold;
-}
-#heading{
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
-}
-#objective{
-  color: white;
-  text-align: center;
-  outline-style: double;
-}
-#work{
-  color: white;
-  text-align: center;
-  height: 20px;
-}
-#education{
-  color:white;
-  text-align: center;
-}
-#lowerportion{
-  color: white;
-  text-align: center;
-  font-family: Verdana, Geneva, serif;
 }
