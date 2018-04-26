@@ -3,6 +3,7 @@ html, body{
 	 color: #eaf2f9;
 	 font-family: Arimo, sans-serif;
 	 padding: 20px 25px 20px 15px;
+	 height: 100%;
 }
 .navigation {
 	top: 10px;
@@ -78,4 +79,5 @@ p{
 #map{
 	height:100%;
 	width:100%;
+	position:absolute;
 }
