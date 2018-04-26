@@ -1,32 +1,30 @@
 <!DOCTYPE html>
   <html lang="en">
-    
+  
     <head>
       <meta charset="UTF-8">
       <title>Cholula Massacre Paper</title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+  	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    
+    </head>   
     <body>  
-      
       <nav class="navigation" id="nav_font">
         <ul> 
           <li><a href="index.html">Resume</a></li>
           <li><a href="cholula.html">Cholula</a></li>
           <li><a href="1960to1973.html">1960s</a></li>
         </ul>
-      </nav>
-      
+      </nav>    
       <section id="header_cholula">
-        <h4>Rolando Estrada</h4>
         <h1>Cholula Massacre: A Short Report of Two Conflicting Accounts</h1>
         <p><em>This is a written report based on a colonial-era massacre in the 1500s based in present-day Mexico - which compares conflicting reports of the events occurred; more background can be found <a href="https://www.thoughtco.com/the-cholula-massacre-2136527">here.</a></em></p>
         <p><em>I encourage you to google any names/locations or anything which may be confusing - thanks for reading.</em></p>
-      </section>
-      
+      </section>   
       <section id="cholulaparagraphs">
-        <h5>Two Conflicting Accounts:</h5>
+        <h5 id="cholulah5">Two Conflicting Accounts:</h5>
         <div id="cholulap1">
           <p>
               Objectively, the Spanish were making their way towards Tenochtitlan. However, the two
@@ -59,16 +57,24 @@
               reduce evidence in an effort to prevent incriminating Cortez. Similarly, the Codex was written
               based on stories by descendants of people who were not allied with the Mexica, many years after
               the events. Women and children were not spared, and their remains were found on site
-              (Berenberg). This is one of the largest giveaways to disprove and render Tapia’s version
+			  . This is one of the largest giveaways to disprove and render Tapia’s version
               unreliable. Even I believe that because Tapia was trying to defend Corez in court, his version
               proves more unreliable that the account of the natives, even if they were not allied to the Mexica.
           </p>
         </div>
-      </section>
-   
+		<div id="mapbuttons">
+		  <button type="button" class="button" onclick="travel(Cholula,locations[0])">Modern-day Cholula</button>
+		  <button type="button" class="button" onclick="travel(Tenochtitlan, locations[1])">Modern-day Tenochtitlan</button>
+		</div>				
+		<div id="map">
+	      <script src="javascript/googlemap.js"></script>
+		  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNsvlnIgQ6p4omE2mY0ptk5Q0-w4j_F54&callback=initMap"></script>
+		  <h4 id ="description"></h4>
+		</div>
+      </section> 
       <section id= "cholulalinks">
         <h4><em>An interesting rundown on the event:</em></h4>
-        <iframe width="480" height="360" src="https://www.youtube.com/embed/b7HZi8mZBFA?rel=0"></iframe>     
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/b7HZi8mZBFA?rel=0"></iframe>     
       </section>
   
     </body>
