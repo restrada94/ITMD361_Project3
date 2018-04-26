@@ -1,29 +1,77 @@
 html, body{
- width: 100%;
- background-color: #81adc6; 
- font-family: Verdana, Geneva, sans-serif;
+	 background-color: #3d5870; 
+	 color: #eaf2f9;
+	 font-family: Arimo, sans-serif;
+	 padding: 20px 25px 20px 15px;
+}
+.navigation {
+	top: 10px;
+	left: 0;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #fcfcfc;
+	border-bottom: 1px solid #ccc;  
 }
 .navigation ul {
-	list-style-type: none;
-	margin: 0;
+	list-style: none;
+	width: 14%;
+	margin: 0 auto;
 	padding: 0;
-	overflow: hidden;
-	display: inline-flex;
-
 }
 .navigation li {
-	display: inline;
 	float: left; 
-
 }
 .navigation li a {
 	display: block;
-	color: white;
+	padding: 5px 16px;
 	text-decoration: none;
-	padding: 25px 14px;
-}
-
-li a:hover {
-	background-color: #9b9065;
 	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+.navigation li:first-child a {
+	border-left: 1px solid #ccc; }
+.navigation a:hover {
+	color: #0a101c;
+	background-color: #fff; 
+}	
+li a:hover {
+	background-color: #5f646d;
+	font-weight: bold;
+}
+#resumetop{
+	text-align: center;
+}
+#header_cholula{
+	text-align: center;
+}
+1960main.1960header{
+	text-align: center;
+}
+p{
+	width: 90%;
+	padding-left: 30px;
+}
+#h1sentence{
+	text-align: center;
+}
+#h3sentence{
+	text-align: center;
+}
+#video{
+	padding-top: 10px;
+	text-align: center;
+}
+#cholulalinks{
+	padding-top: 10px;
+	text-align: center;
+}
+#cholulah5{
+	text-align: center;
+}
+#mapbuttons{
+	text-align: center;
 }
