@@ -1,4 +1,4 @@
-var unitedStates=(lat: 37.0902, lng:-95.7128);
+var unitedStates={lat: 37.0902, lng:-95.7128};
 var cholula={lat: 19.0599, lng: -98.2949};
 var tenochtitlan={lat: 19.2806, lng: -99.0588};
 
