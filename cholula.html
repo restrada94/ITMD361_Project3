@@ -63,13 +63,15 @@
           </p>
         </div>
 		<div id="mapbuttons">
-		  <button type="button" class="button" onclick="travel(Cholula,locations[0])">Modern-day Cholula</button>
-		  <button type="button" class="button" onclick="travel(Tenochtitlan, locations[1])">Modern-day Tenochtitlan</button>
-		</div>				
-		<div id="map">
-	      <script src="javascript/googlemap.js"></script>
-		  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNsvlnIgQ6p4omE2mY0ptk5Q0-w4j_F54&callback=initMap"></script>
-		  <h4 id ="description"></h4>
+		  <button type="button" class="button" onclick="locationFunction(Cholula,locations[0])">Modern-day Cholula</button>
+		  <button type="button" class="button" onclick="locationFunction(Tenochtitlan, locations[1])">Modern-day Tenochtitlan</button>
+		</div>	
+		<div id = "mapparent">
+		  <div id="map">
+	        <script src="javascript/googlemap.js"></script>
+		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGd5I71O_LN7l_ARD5fioqMHD3xDbvq1s&callback=mapFunction" async defer></script>
+		    <h4 id ="description"></h4>
+		  </div>
 		</div>
       </section> 
       <section id= "cholulalinks">
